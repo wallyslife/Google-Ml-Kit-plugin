@@ -17,6 +17,7 @@
     [handlers addObject:[[ImageLabeler alloc] init]];
     [handlers addObject:[[PoseDetector alloc] init]];
     [handlers addObject:[[TextRecognizer alloc] init]];
+    [handlers addObject:[[TextRecognizerV2 alloc] init]];
     
     // Add nlp detectors
     [handlers addObject:[[LanguageIdentifier alloc] init]];

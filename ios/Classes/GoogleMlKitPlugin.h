@@ -39,6 +39,9 @@
 @interface TextRecognizer : NSObject <Handler>
 @end
 
+@interface TextRecognizerV2 : NSObject <Handler>
+@end
+
 @interface LanguageIdentifier : NSObject <Handler>
 @end
 

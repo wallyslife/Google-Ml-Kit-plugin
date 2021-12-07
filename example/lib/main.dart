@@ -83,6 +83,7 @@ class Home extends StatelessWidget {
                       CustomCard(
                         'Text Detector V2',
                         TextDetectorV2View(),
+                        featureCompleted: true,
                       ),
                       CustomCard(
                         'Object Detector',

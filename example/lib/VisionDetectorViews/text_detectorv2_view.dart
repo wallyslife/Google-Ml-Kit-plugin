@@ -37,6 +37,7 @@ class _TextDetectorViewV2State extends State<TextDetectorV2View> {
     final recognisedText = await textDetector.processImage(inputImage,
         script: TextRecognitionOptions.DEVANAGIRI);
     print('Found ${recognisedText.blocks.length} textBlocks');
+    print('Found ${recognisedText.text} textBlocks');
     if (inputImage.inputImageData?.size != null &&
         inputImage.inputImageData?.imageRotation != null) {
       final painter = TextDetectorPainter(
